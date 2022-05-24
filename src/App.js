@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState, createContext} from 'react';
+import NavBar from './components/navBar';
+import Footer from './components/footer';
+import PageRoutes from './pageRoutes';
 
-function App() {
+export const ThemeContext = createContext(null)
+
+export default function App() {
+
+  const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light")
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"))
+  }
+
+  localStorage.setItem("theme", theme)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className={`App ${theme} relative`}>
+            <NavBar onDarkMode={toggleTheme} />
+          <div className="flex-grow h-max dark:bg-gray-700 dark:text-white">
+            <PageRoutes />
+            <button className="bg-red" onClick={toggleTheme}></button>
+          </div>
+          <div className="float-bottom">
+            <Footer />
+          </div>
+      </div> 
   );
 }
-
-export default App;
