@@ -1,7 +1,7 @@
 import TicTacToe from './ticTacToe'
 import RandomNameGenerator from './randomNameGen';
 import NoToolSelectedScreen from './noToolSelectedScreen';
-import HangmanGame from './hangmanGame'
+import HangmanGame from './hangman/'
 
 export default function ToolDisplay(props) {
   

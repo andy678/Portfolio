@@ -20,8 +20,6 @@ export default function ClassTools() {
             </br>
             <br>
             </br>
-            <input type="text" value={words} onChange={setWords} />
-            <input type="text" value={students} onChange={setStudents} />
             <div>TIC-TAC-TOE</div>
             <div>DICE GAME</div>
         </div>
