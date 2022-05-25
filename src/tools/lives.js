@@ -15,8 +15,14 @@ export default function Lives(props) {
   console.log(display)
 
     return (
-      <div className="w-16 h-16">
-        <HeartIcon /><HeartIcon /><HeartIcon /><HeartIcon /><HeartIcon />
+      <div>
+          <div class="grid grid-cols-5 gap-4 p-64">
+            <div><HeartIcon /></div>
+            <div><HeartIcon /></div>
+            <div><HeartIcon /></div>
+            <div><HeartIcon /></div>
+            <div><HeartIcon /></div>
+          </div>
       </div>
     );
   }

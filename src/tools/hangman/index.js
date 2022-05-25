@@ -53,9 +53,8 @@ export default function HangmanGame() {
     return (
       <div className="w-full h-full">
          {word ? word.map((letter) => <span className={`text-5xl letter ${letter}`} ></span>) : "PLEASE CLICK THE BUTTONS BELOW TO START" }
-         <Lives currentLives={currentLives} totalLives={6} score={0} />
          <button className="bg-slate-300 text-black" onClick={newGame}>GENERATE</button>
-         <Keyboard />
+         <Lives currentLives={currentLives} totalLives={6} score={0} />
       </div>
     );
   }

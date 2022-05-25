@@ -1,6 +1,7 @@
 import HomePage from "./pages/home";
 import ClassToolsPage from "./pages/classTools"
 import AboutPage from "./pages/about";
+import ContactPage from "./pages/contact";
 
 import {
   BrowserRouter as Router,
@@ -16,6 +17,7 @@ export default function PageRoutes() {
                  <Route exact path="" element={<HomePage />} />
                  <Route path="/class-tools" element={<ClassToolsPage />} />
                  <Route path="/about" element={<AboutPage />} />
+                 <Route path="/contact" element={<ContactPage />} />
                  <Route path="*" element={<HomePage />} />
              </Routes>
      </Router>
