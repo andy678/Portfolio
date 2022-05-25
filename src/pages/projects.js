@@ -1,6 +1,6 @@
 import ProjectBox from "../components/projectBox"
 
-export default function ProjectsSection() {
+export default function ProjectsPage() {
   
     return (
       <div id="projects" className="w-full h-full">

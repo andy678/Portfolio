@@ -1,8 +1,5 @@
-import AboutSection from "../section/about"
-import ContactSection from "../section/contact"
-import ProjectsSection from "../section/projects"
-import LearningSection from "../section/learning"
 import SkillBadge from "../components/skillBadge"
+import Button from "../components/button";
 
 export default function HomePage() {
    
@@ -10,10 +7,11 @@ export default function HomePage() {
 
     return (
        <>
-         <AboutSection />
-         <ContactSection />
-         <ProjectsSection />
-         <LearningSection />
+        <div className="w-full h-full">
+          <h1 className="text-blue-500">Hi, I'm Andy</h1>
+          <h1 className="text-blue-500">Welcome to my portfolio</h1>
+          <Button text="VIEW MY PROJECTS" /> <Button text="CONTACT ME" />
+      </div>
          <h1 className="text-5xl">MY EXPERIENCE</h1>
               {computerSkills.map((skill) =>
                 <SkillBadge skills={skill} />

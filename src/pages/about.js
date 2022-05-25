@@ -1,4 +1,4 @@
-export default function AboutSection() {
+export default function AboutPage() {
   
     return (
       <div className="w-full h-full">
