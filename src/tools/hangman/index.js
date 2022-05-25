@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
-import Lives from '../../components/lives'
+import Lives from '../lives';
+import Keyboard from './keyboard';
 let randomWords = require('random-words');
 
 export default function HangmanGame() {
@@ -53,7 +54,8 @@ export default function HangmanGame() {
       <div className="w-full h-full">
          {word ? word.map((letter) => <span className={`text-5xl letter ${letter}`} ></span>) : "PLEASE CLICK THE BUTTONS BELOW TO START" }
          <Lives currentLives={currentLives} totalLives={6} score={0} />
-         <div onClick={newGame}>GENERATE</div>
+         <button className="bg-slate-300 text-black" onClick={newGame}>GENERATE</button>
+         <Keyboard />
       </div>
     );
   }
