@@ -13,7 +13,7 @@ export default function PageRoutes() {
   return (
      <Router>
              <Routes>
-                 <Route path="/" element={<HomePage />} />
+                 <Route exact path="" element={<HomePage />} />
                  <Route path="/class-tools" element={<ClassToolsPage />} />
                  <Route path="/about" element={<AboutPage />} />
                  <Route path="*" element={<HomePage />} />
