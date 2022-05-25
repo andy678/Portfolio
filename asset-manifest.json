@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.20b16ea0.css",
-    "main.js": "/Portfolio/static/js/main.c1d0e69e.js",
+    "main.css": "/Portfolio/static/css/main.79d2fb5f.css",
+    "main.js": "/Portfolio/static/js/main.d6de4617.js",
+    "static/media/Bungee-Regular.ttf": "/Portfolio/static/media/Bungee-Regular.3d95fa68283102c29cd9.ttf",
+    "static/media/Rubik-Bold.ttf": "/Portfolio/static/media/Rubik-Bold.383b8c94b12034c5e8b5.ttf",
     "index.html": "/Portfolio/index.html",
-    "main.20b16ea0.css.map": "/Portfolio/static/css/main.20b16ea0.css.map",
-    "main.c1d0e69e.js.map": "/Portfolio/static/js/main.c1d0e69e.js.map"
+    "main.79d2fb5f.css.map": "/Portfolio/static/css/main.79d2fb5f.css.map",
+    "main.d6de4617.js.map": "/Portfolio/static/js/main.d6de4617.js.map"
   },
   "entrypoints": [
-    "static/css/main.20b16ea0.css",
-    "static/js/main.c1d0e69e.js"
+    "static/css/main.79d2fb5f.css",
+    "static/js/main.d6de4617.js"
   ]
 }
