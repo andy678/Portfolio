@@ -19,7 +19,7 @@ export default function App() {
   return (
       <div className={`App ${theme} relative`}>
             <NavBar onDarkMode={toggleTheme} />
-          <div className="flex-grow h-max dark:bg-gray-700 dark:text-white">
+          <div className="flex-grow h-screen p-16 dark:bg-gray-700 dark:text-white">
             <PageRoutes />
             <button className="bg-red" onClick={toggleTheme}></button>
           </div>

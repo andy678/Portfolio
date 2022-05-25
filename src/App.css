@@ -13,6 +13,14 @@
   }
 }
 
+.font-rubik {
+  font-family: "Rubik";
+}
+
+.font-bungee {
+  font-family: "Bungee-Regular";
+ }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

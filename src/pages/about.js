@@ -1,10 +1,10 @@
 export default function AboutPage() {
   
     return (
-      <div className="w-full h-full">
+      <div className="">
         <h1 id="about" className="text-5xl">ABOUT</h1>
-        <h3>andy678@live.co.uk</h3>
-        <p>I am a 27 year old currently living in Shenzhen China.</p>
+        <div className="text-3xl pt-16 pb-10 font-rubik text-black dark:text-white">CURRENT LOCATION: <span className="text-blue-500">SHENZHEN, CHINA</span></div>
+        <div className="text-3xl text-left pt-16 pb-10 font-rubik text-black dark:text-white">WORK EXPERIENCE </div>
       </div>
     );
   }

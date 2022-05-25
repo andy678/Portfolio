@@ -6,16 +6,15 @@ export default function HomePage() {
     const computerSkills = ["HTML", "CSS", "JavaScript", "React", "jQuery", "Java", "Laravel 4.2", "Git", "Github/Bitbucket", "Docker", "Bootstrap", "Tailwind"]
 
     return (
-       <>
-        <div className="w-full h-full">
-          <h1 className="text-blue-500">Hi, I'm Andy</h1>
-          <h1 className="text-blue-500">Welcome to my portfolio</h1>
-          <Button text="VIEW MY PROJECTS" /> <Button text="CONTACT ME" />
-      </div>
-         <h1 className="text-5xl">MY EXPERIENCE</h1>
-              {computerSkills.map((skill) =>
-                <SkillBadge skills={skill} />
-                )}
-       </> 
+       <div className="h-screen">
+        <div className="grid place-items-center">
+          <span className="text-5xl pt-16 pb-10 font-rubik text-black dark:text-white">HI, I'M <span className="text-blue-500">ANDY</span>.</span>
+          <span className="text-5xl pb-10 font-rubik text-black dark:text-white">WELCOME TO MY <span className="text-blue-500">PORTFOLIO</span>.</span>
+          <div>
+            <Button text="VIEW MY PROJECTS" />
+            <Button text="CONTACT ME" />
+          </div>
+        </div>
+       </div> 
     );
   }
