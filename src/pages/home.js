@@ -3,6 +3,7 @@ import { LanguageContext } from '../context/languageContext';
 import SkillBadge from "../components/skillBadge"
 import Button from "../components/button";
 import GitHubButton from 'react-github-btn'
+import AgeDisplay from "../components/ageDisplay";
 
 export default function HomePage() {
    
@@ -19,6 +20,7 @@ export default function HomePage() {
             <Button text={languageEN ? "VIEW MY PROJECTS" : "看我的项目"} />
             <Button text={languageEN ? "CONTACT ME" : "联系我"} />
           </div>
+          <AgeDisplay />
         </div>
        </div> 
     );
