@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState, createContext} from 'react';
+import React, {useState} from 'react';
 import NavBar from './components/navBar';
 import Footer from './components/footer';
 import PageRoutes from './pageRoutes';
@@ -19,7 +19,7 @@ export default function App() {
       <div className={`App ${theme} relative`}>
         <LanguageContext.Provider value={languageEN}>
           <NavBar onDarkMode={toggleTheme} />
-            <div className="flex-grow h-screen p-16 dark:bg-gray-700 dark:text-white">
+            <div className="flex-grow h-screen p-16 dark:bg-gray-900 dark:text-white">
               <PageRoutes />
               <button className="bg-red" onClick={toggleTheme}></button>
             </div>

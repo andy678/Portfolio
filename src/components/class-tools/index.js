@@ -1,12 +1,12 @@
 import TicTacToe from './ticTacToe'
 import RandomNameGenerator from './randomNameGen';
 import NoToolSelectedScreen from './noToolSelectedScreen';
-import HangmanGame from './hangman/'
+import HangmanGame from '../../tools/hangman'
 
 export default function ToolDisplay(props) {
   
-  function showTool(selected){
-    switch(selected) {
+  function showTool(classToolID){
+    switch(classToolID) {
       case 1:
           return <TicTacToe />
       case 2:

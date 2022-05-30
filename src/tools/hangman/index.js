@@ -1,6 +1,5 @@
 import {useEffect, useState} from 'react';
-import Lives from '../lives';
-import Keyboard from './keyboard';
+import Lives from '../../components/class-tools/lives';
 let randomWords = require('random-words');
 
 export default function HangmanGame() {
