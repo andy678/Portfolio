@@ -7,9 +7,9 @@ export default function ProjectBox(props) {
     return (
       <div className="box-border border-4">
           <div className="box-border h-64 w-64 border-4">
-        <img src={logo}></img>
+        <img src={props.image}></img>
       </div>
-      <Button text="View Website" /><Button text="View Website" /> 
+      <Button src={props.websiteUrl} text="View Website" /><Button text="View Website" /> 
 
       </div>
     );

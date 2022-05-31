@@ -1,9 +1,11 @@
+import PageTitle from "../../components/pageTitle";
+
 export default function AboutPage() {
   
     return (
       <div className="font-rubik text-black dark:text-white">
         
-        <h1 id="about" className="text-5xl">ABOUT ME</h1>
+        <PageTitle text="ABOUT ME"/>
         <div className="text-3xl pt-16 pb-10">CURRENT LOCATION: <span className="text-blue-500">SHENZHEN, CHINA</span></div>
         <div className="text-3xl text-left pt-16 pb-10">WORK EXPERIENCE </div>
         <div className="text-2xl text-left">SGP CONSULTING (ONBOARD PRO) <span className="text-blue-500">2015 - 2016</span></div>

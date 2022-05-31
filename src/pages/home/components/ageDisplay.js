@@ -1,4 +1,5 @@
 import React from "react";
+import AgeDisplayPlanets from "./ageDisplayPlanets";
  
 export default function AgeDisplay(){
 
@@ -10,9 +11,11 @@ export default function AgeDisplay(){
     const calculateAgeHours = () => calculateAgeDays() * 24
     const calculateAgeYears = () => Math.floor(calculateAgeDays() / 365.25)
 
+
+
     return(
        <>
-            <span>Earth Years {calculateAgeYears()} Earth Days {calculateAgeDays()} Hours {(calculateAgeHours())} </span>
+            <AgeDisplayPlanets daysOld={calculateAgeDays()} hoursOld={calculateAgeHours()} yearsOld={calculateAgeYears()} />
        </>
      ) 
 }
