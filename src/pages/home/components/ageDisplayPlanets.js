@@ -1,4 +1,10 @@
 import React from "react";
+import EarthFilled from "./images/earth-filled.png"
+import EarthOutline from "./images/earth-outline.png"
+import JupiterFilled from "./images/jupiter-filled.png"
+import JupiterOutline from "./images/jupiter-outline.png"
+import SaturnFilled from "./images/saturn-filled.png"
+import SaturnOutline from "./images/saturn-outline.png"
  
 export default function AgeDisplayPlanets(props){
 
@@ -21,15 +27,18 @@ export default function AgeDisplayPlanets(props){
    }
 
     return(
-       <> 
+       <div className="inline-block"> 
            Mercury: {calculateYears(1)}
            Venus: {calculateYears(daysRevolution.Venus)}
            Earth: {calculateYears(daysRevolution.Earth)}
+          <img className="w-16 h-16" onMouseEnter={e => (e.currentTarget.src = EarthFilled)} onMouseLeave={e => (e.currentTarget.src = EarthOutline)} src={EarthOutline} />
+          <img className="w-16 h-16" onMouseEnter={e => (e.currentTarget.src = JupiterFilled)} onMouseLeave={e => (e.currentTarget.src = JupiterOutline)} src={JupiterOutline} />
+          <img className="w-16 h-16" onMouseEnter={e => (e.currentTarget.src = SaturnFilled)} onMouseLeave={e => (e.currentTarget.src = SaturnOutline)} src={SaturnOutline} />
+          <img className="w-16 h-16" onMouseEnter={e => (e.currentTarget.src = SaturnFilled)} onMouseLeave={e => (e.currentTarget.src = SaturnOutline)} src={SaturnOutline} />
            Mars: {calculateYears(daysRevolution.Mars)}    
            Jupiter: {calculateYears(daysRevolution.Jupiter)}
            Saturn: {calculateYears(daysRevolution.Saturn)}
            Uranus: {calculateYears(daysRevolution.Uranus)}
-           Nepune:
-       </>
+       </div>
      ) 
 }

@@ -14,7 +14,7 @@ export default function ProjectBox(props){
                 <ProjectBoxIcon icon={icon} />
             )) }
             <h3>{props.description}</h3>
-            {props.url ? <Button text="VIEW THE PROJECT" /> : null}
+            {props.url ? <Button text="VIEW THE PROJECT" href={props.url} /> : null}
            {props.gitHubURL ? <Button text="VIEW GITHUB" /> : null}
        </div>
      ) 
