@@ -7,9 +7,9 @@ export default function ProjectBox(props){
     const icons = props.tools
 
     return(
-       <div className="w-2/4 shadow-md hover:shadow-lg inline-block bg-gray-100">
+       <div className="w-2/3 pb-20 font-rubik shadow-md hover:shadow-lg inline-block">
            {console.log("PROJECT BOX")}
-           <h1 className="text-xxl text-blue-800">{props.name}</h1>
+           <h1 className="text-5xl text-blue-500 pt-8">{props.name}</h1>
             {    icons.map((icon) => (
                 <ProjectBoxIcon icon={icon} />
             )) }

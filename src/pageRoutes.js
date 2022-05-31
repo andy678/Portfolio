@@ -1,7 +1,6 @@
 import HomePage from "./pages/home";
 import AboutPage from "./pages/about";
 import ProjectsPage from "./pages/projects";
-import ContactPage from "./pages/contact";
 import ErrorPage from "./pages/about/error";
 
 import {
@@ -18,7 +17,6 @@ export default function PageRoutes() {
                  <Route exact path="" element={<HomePage />} />
                  <Route path="/projects" element={<ProjectsPage />} />
                  <Route path="/about" element={<AboutPage />} />
-                 <Route path="/contact" element={<ContactPage />} />
                  <Route path="*" element={<ErrorPage />} />
              </Routes>
      </Router>

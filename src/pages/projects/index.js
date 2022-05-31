@@ -8,7 +8,7 @@ export default function ProjectsPage() {
       name: "Portfolio Website",
       url: "www.website.co.uk",
       description: "this is a description",
-      tools: ["css", "javascript", "react", "tailwind", "bootstrap"]
+      tools: ["css", "javascript", "react", "tailwind"]
     },
     {
       name: "Teaching In China",
