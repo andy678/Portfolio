@@ -14,9 +14,9 @@ export default function PageRoutes() {
   return (
      <Router>
              <Routes>
-                 <Route exact path="" element={<HomePage />} />
-                 <Route path="/projects" element={<ProjectsPage />} />
-                 <Route path="/about" element={<AboutPage />} />
+                 <Route exact path="/portfolio" element={<HomePage />} />
+                 <Route path="/portfolio/projects" element={<ProjectsPage />} />
+                 <Route path="/portfolio/about" element={<AboutPage />} />
                  <Route path="*" element={<ErrorPage />} />
              </Routes>
      </Router>
