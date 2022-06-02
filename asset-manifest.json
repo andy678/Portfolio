@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.93429a9b.css",
-    "main.js": "/static/js/main.79bab7fb.js",
-    "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
-    "static/media/Bungee-Regular.ttf": "/static/media/Bungee-Regular.3d95fa68283102c29cd9.ttf",
-    "static/media/Rubik-Bold.ttf": "/static/media/Rubik-Bold.383b8c94b12034c5e8b5.ttf",
-    "static/media/tailwind.png": "/static/media/tailwind.36b2728bf0d14b7b7576.png",
-    "static/media/saturn-filled.png": "/static/media/saturn-filled.3dd559d7abe2133131e4.png",
-    "static/media/earth-filled.png": "/static/media/earth-filled.f0ecbbaaf78b5653ed8f.png",
-    "static/media/jupiter-filled.png": "/static/media/jupiter-filled.6fa0b51efec28d7e1c48.png",
-    "static/media/wix.png": "/static/media/wix.313ae925f7791f0d0821.png",
-    "static/media/google-analytics.png": "/static/media/google-analytics.7f47b076801d9fd9efdb.png",
-    "static/media/saturn-outline.png": "/static/media/saturn-outline.c82fc2c0c34a8ddda03b.png",
-    "static/media/jupiter-outline.png": "/static/media/jupiter-outline.5de547f658e4376d977d.png",
-    "static/media/earth-outline.png": "/static/media/earth-outline.ef95da6595d02bf0487f.png",
-    "static/media/bootstrap.png": "/static/media/bootstrap.e94a80856cc0cb492938.png",
-    "static/media/css.png": "/static/media/css.6b567a6c5d99fb6ee070.png",
-    "index.html": "/index.html",
-    "main.93429a9b.css.map": "/static/css/main.93429a9b.css.map",
-    "main.79bab7fb.js.map": "/static/js/main.79bab7fb.js.map"
+    "main.css": "/portfolio/static/css/main.0e7e50cf.css",
+    "main.js": "/portfolio/static/js/main.46770fb8.js",
+    "static/media/react.png": "/portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Bungee-Regular.ttf": "/portfolio/static/media/Bungee-Regular.3d95fa68283102c29cd9.ttf",
+    "static/media/Rubik-Bold.ttf": "/portfolio/static/media/Rubik-Bold.383b8c94b12034c5e8b5.ttf",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.36b2728bf0d14b7b7576.png",
+    "static/media/saturn-filled.png": "/portfolio/static/media/saturn-filled.3dd559d7abe2133131e4.png",
+    "static/media/earth-filled.png": "/portfolio/static/media/earth-filled.f0ecbbaaf78b5653ed8f.png",
+    "static/media/jupiter-filled.png": "/portfolio/static/media/jupiter-filled.6fa0b51efec28d7e1c48.png",
+    "static/media/wix.png": "/portfolio/static/media/wix.313ae925f7791f0d0821.png",
+    "static/media/google-analytics.png": "/portfolio/static/media/google-analytics.7f47b076801d9fd9efdb.png",
+    "static/media/saturn-outline.png": "/portfolio/static/media/saturn-outline.c82fc2c0c34a8ddda03b.png",
+    "static/media/jupiter-outline.png": "/portfolio/static/media/jupiter-outline.5de547f658e4376d977d.png",
+    "static/media/earth-outline.png": "/portfolio/static/media/earth-outline.ef95da6595d02bf0487f.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.e94a80856cc0cb492938.png",
+    "static/media/css.png": "/portfolio/static/media/css.6b567a6c5d99fb6ee070.png",
+    "index.html": "/portfolio/index.html",
+    "main.0e7e50cf.css.map": "/portfolio/static/css/main.0e7e50cf.css.map",
+    "main.46770fb8.js.map": "/portfolio/static/js/main.46770fb8.js.map"
   },
   "entrypoints": [
-    "static/css/main.93429a9b.css",
-    "static/js/main.79bab7fb.js"
+    "static/css/main.0e7e50cf.css",
+    "static/js/main.46770fb8.js"
   ]
 }
