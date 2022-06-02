@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react';
-import NavBar from './components/NavBar';
+import NavBar from './components/navbar';
 import Footer from './components/footer';
 import PageRoutes from './pageRoutes';
 import { LanguageContext, languageEN } from './context/languageContext';

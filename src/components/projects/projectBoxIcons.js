@@ -1,10 +1,10 @@
-import JavascriptIcon from "./icons/js.png"
-import CSSIcon from "./icons/css.png"
-import ReactIcon from "./icons/react.png"
-import TailwindIcon from "./icons/tailwind.png"
-import WixIcon from "./icons/wix.png"
-import BootstrapIcon from "./icons/bootstrap.png"
-import GoogleAnalytics from "./icons/google-analytics.png"
+import JavascriptIcon from "../../icons/js.png"
+import CSSIcon from "../../icons/css.png"
+import ReactIcon from "../../icons/react.png"
+import TailwindIcon from "../../icons/tailwind.png"
+import WixIcon from "../../icons/wix.png"
+import BootstrapIcon from "../../icons/bootstrap.png"
+import GoogleAnalytics from "../../icons/google-analytics.png"
  
 export default function ProjectBoxIcons(props){
 

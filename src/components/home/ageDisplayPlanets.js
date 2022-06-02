@@ -1,10 +1,10 @@
 import React from "react";
-import EarthFilled from "./images/earth-filled.png"
-import EarthOutline from "./images/earth-outline.png"
-import JupiterFilled from "./images/jupiter-filled.png"
-import JupiterOutline from "./images/jupiter-outline.png"
-import SaturnFilled from "./images/saturn-filled.png"
-import SaturnOutline from "./images/saturn-outline.png"
+import EarthFilled from "../../images/earth-filled.png"
+import EarthOutline from "../../images/earth-outline.png"
+import JupiterFilled from "../../images/jupiter-filled.png"
+import JupiterOutline from "../../images/jupiter-outline.png"
+import SaturnFilled from "../../images/saturn-filled.png"
+import SaturnOutline from "../../images/saturn-outline.png"
  
 export default function AgeDisplayPlanets(props){
 

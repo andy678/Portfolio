@@ -1,4 +1,4 @@
-import ProjectBox from "./components/projectBox";
+import ProjectBox from "../../components/projects/projectBox";
 import PageTitle from "../../components/pageTitle";
 
 export default function ProjectsPage() {

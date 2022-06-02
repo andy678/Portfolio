@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { LanguageContext } from '../../context/languageContext';
 import Button from "../../components/button";
 import GitHubButton from 'react-github-btn'
-import AgeDisplay from "./components/ageDisplay";
-import WelcomeText from "./components/welcomeText";
+import AgeDisplay from "../../components/home/ageDisplay";
+import WelcomeText from "../../components/home/welcomeText";
 
 export default function HomePage() {
    

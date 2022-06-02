@@ -1,16 +1,21 @@
-import { LinkIcon } from "@heroicons/react/solid";
-import logo from '../../images/tic.png'
+import React from "react";
+import ProjectBoxIcon from "./projectBoxIcons"
 import Button from "../button";
+ 
+export default function ProjectBox(props){
 
-export default function ProjectBox(props) {
+    const icons = props.tools
 
-    return (
-      <div className="box-border border-4">
-          <div className="box-border h-64 w-64 border-4">
-        <img src={props.image}></img>
-      </div>
-      <Button src={props.websiteUrl} text="View Website" /><Button text="View Website" /> 
-
-      </div>
-    );
-  }
+    return(
+       <div className="w-2/3 pb-20 font-rubik shadow-md hover:shadow-lg inline-block">
+           {console.log("PROJECT BOX")}
+           <h1 className="text-5xl text-blue-500 pt-8">{props.name}</h1>
+            {    icons.map((icon) => (
+                <ProjectBoxIcon icon={icon} />
+            )) }
+            <h3>{props.description}</h3>
+            {props.url ? <Button text="VIEW THE PROJECT" href={props.url} /> : null}
+           {props.gitHubURL ? <Button text="VIEW GITHUB" /> : null}
+       </div>
+     ) 
+}

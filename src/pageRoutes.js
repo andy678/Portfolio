@@ -1,7 +1,7 @@
 import HomePage from "./pages/home";
 import AboutPage from "./pages/about";
 import ProjectsPage from "./pages/projects";
-import ErrorPage from "./pages/about/error";
+import ErrorPage from "./pages/error";
 
 import {
   BrowserRouter as Router,
